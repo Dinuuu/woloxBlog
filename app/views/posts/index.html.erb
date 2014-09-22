@@ -1,0 +1,27 @@
+<h1>Listing posts</h1>
+
+
+<button type="button" class="btn btn-default btn-lg">
+  <span class="glyphicon glyphicon-star"></span> <%= link_to 'New post', new_post_path %>
+</button>
+<p/>
+  <% @posts.each do |post| %>
+    <%= panel_row column_class: 'col-sm-4' do %>
+      <%= panel title: post.title, context: :info do %>
+        <div class='panel-body'><%= post.text %></div>
+      <% end %>
+    
+    <div class="dropdown">
+      <button class="btn btn-default btn-lg dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown">
+      Actions
+        <span class="caret"></span>
+      </button>
+      <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+      <li role="presentation"><a role="menuitem" tabindex="-1" href="#"><%= link_to 'Show', post %></a></li>
+      <li role="presentation"><a role="menuitem" tabindex="-1" href="#"><%= link_to 'Edit', edit_post_path(post) %></a></li>
+      <li role="presentation"><a role="menuitem" tabindex="-1" href="#"><%= link_to 'Destroy', post_path(post), method: :delete, data: { confirm: 'Are you sure?' } %></a></li>
+
+      </ul>
+    </div>
+    <% end %>
+  <% end %>

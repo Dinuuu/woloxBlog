@@ -1,0 +1,11 @@
+<%= panel_row column_class: 'col-sm-4' do %>
+  <%= panel title: comment.commenter, context: :info do %>
+    <div class='panel-body'><%= comment.body %></div>
+  <% end %>
+    <%= nav as: :pills do %>
+    <%= link_to 'Destroy Comment', [comment.post, comment],
+               method: :delete,
+               data: { confirm: 'Are you sure?' } %>
+  
+  <% end %>
+<% end %>

@@ -1,0 +1,11 @@
+<%= form_for ([@post, @post.comments.build]), layout: :basic do |f| %>
+ <p> 
+  <%= f.hidden_field :commenter, value: current_user.email %>
+  </p>
+  <p>
+    <%= f.text_area :body %>
+  </p>
+  <p>
+    <%= f.submit %>
+  </p>
+<% end %>
