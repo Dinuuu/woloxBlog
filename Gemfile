@@ -32,6 +32,7 @@ gem "twitter-bootstrap-rails"
 gem 'bh'
 gem 'pg'
 gem 'devise'
+gem 'sidekiq'
 
 group :test, :development do
 	gem 'byebug'

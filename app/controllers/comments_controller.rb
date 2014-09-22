@@ -1,7 +1,7 @@
 class CommentsController  < InheritedResources::Base
 	belongs_to :post
   before_action :authenticate_user!
-
+  after_action :mail_interesed, only: :create
   def create
   	create! { post_path(@post) }
   end
@@ -9,6 +9,11 @@ class CommentsController  < InheritedResources::Base
   def destroy
   	destroy! { post_path(@post) }
   end
+
+  def mail_interesed
+    MailWorker.perform_async(@post.id)
+  end
+
 
   private
 
