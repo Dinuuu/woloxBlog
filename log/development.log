@@ -40752,3 +40752,2898 @@ Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-09-22 15:24:06 -03
 
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-22 15:24:06 -0300
+  [1m[36mPost Load (0.2ms)[0m  [1mSELECT  "posts".* FROM "posts"  WHERE "posts"."id" = $1 LIMIT 1[0m  [["id", 0]]
+  [1m[35mPost Load (0.2ms)[0m  SELECT  "posts".* FROM "posts"  WHERE "posts"."id" = $1 LIMIT 1  [["id", 0]]
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-23 08:36:17 -0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PostsController#index as HTML
+Completed 401 Unauthorized in 16ms
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2014-09-23 08:36:17 -0300
+Processing by Devise::SessionsController#new as HTML
+  Rendered users/shared/_links.erb (2.6ms)
+  Rendered users/sessions/new.html.erb within layouts/application (17.8ms)
+Completed 200 OK in 288ms (Views: 216.4ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2014-09-23 08:36:18 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-23 08:36:18 -0300
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-09-23 08:36:18 -0300
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2014-09-23 08:36:18 -0300
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2014-09-23 08:36:18 -0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-23 08:36:18 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-23 08:36:18 -0300
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-09-23 08:36:18 -0300
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-09-23 08:36:18 -0300
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-09-23 08:36:18 -0300
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-09-23 08:36:18 -0300
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-09-23 08:36:18 -0300
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-09-23 08:36:18 -0300
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-09-23 08:36:18 -0300
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-09-23 08:36:18 -0300
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-09-23 08:36:18 -0300
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-09-23 08:36:18 -0300
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-09-23 08:36:18 -0300
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-09-23 08:36:18 -0300
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2014-09-23 08:36:18 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-23 08:36:18 -0300
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-09-23 08:36:18 -0300
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2014-09-23 08:36:18 -0300
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2014-09-23 08:36:18 -0300
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-09-23 08:36:18 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-23 08:36:18 -0300
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2014-09-23 08:36:28 -0300
+Processing by Devise::SessionsController#new as HTML
+  Rendered users/shared/_links.erb (0.2ms)
+  Rendered users/sessions/new.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 103ms (Views: 100.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2014-09-23 08:36:39 -0300
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered users/shared/_links.erb (0.3ms)
+  Rendered users/registrations/new.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 104ms (Views: 103.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2014-09-23 08:37:20 -0300
+Processing by Devise::RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ky16nSkccRLaqggYUDmQr5/JxGziYiRizZS4jxOgArQ=", "user"=>{"email"=>"federico.dinucci@wolox.com.ar", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign up"}
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mUser Exists (19.9ms)[0m  [1mSELECT  1 AS one FROM "users"  WHERE "users"."email" = 'federico.dinucci@wolox.com.ar' LIMIT 1[0m
+  [1m[35mSQL (2.6ms)[0m  INSERT INTO "users" ("created_at", "email", "encrypted_password", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", "2014-09-23 11:37:20.312839"], ["email", "federico.dinucci@wolox.com.ar"], ["encrypted_password", "$2a$10$eBix8b6sHz.xekRCm1HNpuQ3nWVooJNaMFEX7tY2ukpTbUPQJZK0G"], ["updated_at", "2014-09-23 11:37:20.312839"]]
+  [1m[36m (8.6ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mUPDATE "users" SET "current_sign_in_at" = $1, "current_sign_in_ip" = $2, "last_sign_in_at" = $3, "last_sign_in_ip" = $4, "sign_in_count" = $5, "updated_at" = $6 WHERE "users"."id" = 2[0m  [["current_sign_in_at", "2014-09-23 11:37:20.327150"], ["current_sign_in_ip", "127.0.0.1/32"], ["last_sign_in_at", "2014-09-23 11:37:20.327150"], ["last_sign_in_ip", "127.0.0.1/32"], ["sign_in_count", 1], ["updated_at", "2014-09-23 11:37:20.327999"]]
+  [1m[35m (5.3ms)[0m  COMMIT
+Redirected to http://localhost:3000/
+Completed 302 Found in 211ms (ActiveRecord: 37.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-23 08:37:20 -0300
+Processing by PostsController#index as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 2  ORDER BY "users"."id" ASC LIMIT 1[0m
+  [1m[35mPost Load (0.3ms)[0m  SELECT "posts".* FROM "posts"
+  Rendered posts/index.html.erb within layouts/application (5.5ms)
+Completed 200 OK in 110ms (Views: 105.2ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2014-09-23 08:37:20 -0300
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2014-09-23 08:37:20 -0300
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2014-09-23 08:37:20 -0300
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-09-23 08:37:20 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-23 08:37:20 -0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-23 08:37:20 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-23 08:37:20 -0300
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-09-23 08:37:20 -0300
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-09-23 08:37:20 -0300
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-09-23 08:37:20 -0300
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-09-23 08:37:20 -0300
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-09-23 08:37:20 -0300
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-09-23 08:37:20 -0300
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-09-23 08:37:20 -0300
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-09-23 08:37:20 -0300
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-09-23 08:37:20 -0300
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-09-23 08:37:20 -0300
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-09-23 08:37:20 -0300
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-09-23 08:37:20 -0300
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2014-09-23 08:37:20 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-23 08:37:20 -0300
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-09-23 08:37:20 -0300
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2014-09-23 08:37:20 -0300
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2014-09-23 08:37:20 -0300
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-09-23 08:37:20 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-23 08:37:20 -0300
+
+
+Started GET "/assets/twitter/fonts/glyphicons-halflings-regular.woff" for 127.0.0.1 at 2014-09-23 08:37:20 -0300
+
+ActionController::RoutingError (No route matches [GET] "/twitter/fonts/glyphicons-halflings-regular.woff"):
+  actionpack (4.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.6) lib/rails/engine.rb:514:in `call'
+  railties (4.1.6) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/federicodinucci/.rbenv/versions/2.0.0-p481/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/federicodinucci/.rbenv/versions/2.0.0-p481/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/federicodinucci/.rbenv/versions/2.0.0-p481/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/federicodinucci/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.7ms)
+  Rendered /home/federicodinucci/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.9ms)
+  Rendered /home/federicodinucci/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (43.5ms)
+  Rendered /home/federicodinucci/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (62.4ms)
+
+
+Started GET "/assets/twitter/fonts/glyphicons-halflings-regular.ttf" for 127.0.0.1 at 2014-09-23 08:37:20 -0300
+
+ActionController::RoutingError (No route matches [GET] "/twitter/fonts/glyphicons-halflings-regular.ttf"):
+  actionpack (4.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.6) lib/rails/engine.rb:514:in `call'
+  railties (4.1.6) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/federicodinucci/.rbenv/versions/2.0.0-p481/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/federicodinucci/.rbenv/versions/2.0.0-p481/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/federicodinucci/.rbenv/versions/2.0.0-p481/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/federicodinucci/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.6ms)
+  Rendered /home/federicodinucci/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.4ms)
+  Rendered /home/federicodinucci/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.6ms)
+  Rendered /home/federicodinucci/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (17.5ms)
+
+
+Started GET "/assets/twitter/fonts/glyphicons-halflings-regular.svg" for 127.0.0.1 at 2014-09-23 08:37:20 -0300
+
+ActionController::RoutingError (No route matches [GET] "/twitter/fonts/glyphicons-halflings-regular.svg"):
+  actionpack (4.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.6) lib/rails/engine.rb:514:in `call'
+  railties (4.1.6) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/federicodinucci/.rbenv/versions/2.0.0-p481/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/federicodinucci/.rbenv/versions/2.0.0-p481/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/federicodinucci/.rbenv/versions/2.0.0-p481/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/federicodinucci/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.6ms)
+  Rendered /home/federicodinucci/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.6ms)
+  Rendered /home/federicodinucci/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.7ms)
+  Rendered /home/federicodinucci/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (15.9ms)
+
+
+Started GET "/posts/1" for 127.0.0.1 at 2014-09-23 08:37:25 -0300
+Processing by PostsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 2  ORDER BY "users"."id" ASC LIMIT 1[0m
+  [1m[35mPost Load (0.2ms)[0m  SELECT  "posts".* FROM "posts"  WHERE "posts"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mComment Load (0.2ms)[0m  [1mSELECT "comments".* FROM "comments"  WHERE "comments"."post_id" = $1[0m  [["post_id", 1]]
+  Rendered collection (0.0ms)
+  Rendered comments/_form.html.erb (7.6ms)
+  Rendered posts/show.html.erb within layouts/application (16.5ms)
+Completed 200 OK in 117ms (Views: 113.7ms | ActiveRecord: 1.9ms)
+
+
+Started POST "/posts/1/comments" for 127.0.0.1 at 2014-09-23 08:37:34 -0300
+Processing by CommentsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ky16nSkccRLaqggYUDmQr5/JxGziYiRizZS4jxOgArQ=", "comment"=>{"commenter"=>"federico.dinucci@wolox.com.ar", "body"=>"asdfasdfasfsafasdf"}, "commit"=>"Create Comment", "post_id"=>"1"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 2  ORDER BY "users"."id" ASC LIMIT 1
+  [1m[36mPost Load (0.2ms)[0m  [1mSELECT  "posts".* FROM "posts"  WHERE "posts"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "comments" ("body", "commenter", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["body", "asdfasdfasfsafasdf"], ["commenter", "federico.dinucci@wolox.com.ar"], ["created_at", "2014-09-23 11:37:34.848082"], ["post_id", 1], ["updated_at", "2014-09-23 11:37:34.848082"]]
+  [1m[35m (18.0ms)[0m  COMMIT
+Redirected to http://localhost:3000/posts/1
+Completed 302 Found in 27ms (ActiveRecord: 18.8ms)
+
+
+Started GET "/posts/1" for 127.0.0.1 at 2014-09-23 08:37:34 -0300
+  [1m[36mPost Load (0.3ms)[0m  [1mSELECT  "posts".* FROM "posts"  WHERE "posts"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Processing by PostsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 2  ORDER BY "users"."id" ASC LIMIT 1[0m
+  [1m[35mPost Load (0.2ms)[0m  SELECT  "posts".* FROM "posts"  WHERE "posts"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mComment Load (0.2ms)[0m  [1mSELECT "comments".* FROM "comments"  WHERE "comments"."post_id" = $1[0m  [["post_id", 1]]
+  [1m[35mComment Load (0.2ms)[0m  SELECT "comments".* FROM "comments"  WHERE "comments"."post_id" = $1  [["post_id", 1]]
+  Rendered comments/_comment.html.erb (1.0ms)
+  Rendered comments/_form.html.erb (1.5ms)
+  Rendered posts/show.html.erb within layouts/application (4.9ms)
+Completed 200 OK in 110ms (Views: 107.3ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2014-09-23 08:37:35 -0300
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2014-09-23 08:37:35 -0300
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-09-23 08:37:35 -0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-23 08:37:35 -0300
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2014-09-23 08:37:35 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-23 08:37:35 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-23 08:37:35 -0300
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-09-23 08:37:35 -0300
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-09-23 08:37:35 -0300
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-09-23 08:37:35 -0300
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-09-23 08:37:35 -0300
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-09-23 08:37:35 -0300
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-09-23 08:37:35 -0300
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-09-23 08:37:35 -0300
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-09-23 08:37:35 -0300
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-09-23 08:37:35 -0300
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-09-23 08:37:35 -0300
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-09-23 08:37:35 -0300
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-09-23 08:37:35 -0300
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2014-09-23 08:37:35 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-23 08:37:35 -0300
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-09-23 08:37:35 -0300
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2014-09-23 08:37:35 -0300
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2014-09-23 08:37:35 -0300
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-09-23 08:37:35 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-23 08:37:35 -0300
+
+
+Started DELETE "/users/sign_out" for 127.0.0.1 at 2014-09-23 08:37:47 -0300
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"ky16nSkccRLaqggYUDmQr5/JxGziYiRizZS4jxOgArQ="}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 2  ORDER BY "users"."id" ASC LIMIT 1
+  [1m[36m (0.5ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.4ms)[0m  COMMIT
+Redirected to http://localhost:3000/
+Completed 302 Found in 38ms (ActiveRecord: 1.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-23 08:37:47 -0300
+Processing by PostsController#index as HTML
+Completed 401 Unauthorized in 1ms
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2014-09-23 08:37:47 -0300
+Processing by Devise::SessionsController#new as HTML
+  Rendered users/shared/_links.erb (0.2ms)
+  Rendered users/sessions/new.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 108ms (Views: 105.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2014-09-23 08:37:47 -0300
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2014-09-23 08:37:47 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-23 08:37:47 -0300
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-09-23 08:37:47 -0300
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2014-09-23 08:37:47 -0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-23 08:37:47 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-23 08:37:47 -0300
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-09-23 08:37:47 -0300
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-09-23 08:37:47 -0300
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-09-23 08:37:47 -0300
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-09-23 08:37:47 -0300
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-09-23 08:37:47 -0300
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-09-23 08:37:47 -0300
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-09-23 08:37:47 -0300
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-09-23 08:37:47 -0300
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-09-23 08:37:47 -0300
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-09-23 08:37:47 -0300
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-09-23 08:37:47 -0300
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-09-23 08:37:47 -0300
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2014-09-23 08:37:47 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-23 08:37:47 -0300
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-09-23 08:37:47 -0300
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2014-09-23 08:37:47 -0300
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2014-09-23 08:37:47 -0300
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-09-23 08:37:47 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-23 08:37:47 -0300
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2014-09-23 08:37:58 -0300
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"yu2/OQfltNPUD4QHt7xEU+h4wn1j2f7SooGh7/ERgsk=", "user"=>{"email"=>"dinu1389@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."email" = 'dinu1389@gmail.com'  ORDER BY "users"."id" ASC LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mUPDATE "users" SET "current_sign_in_at" = $1, "last_sign_in_at" = $2, "sign_in_count" = $3, "updated_at" = $4 WHERE "users"."id" = 1[0m  [["current_sign_in_at", "2014-09-23 11:37:58.980083"], ["last_sign_in_at", "2014-09-22 15:14:25.529221"], ["sign_in_count", 9], ["updated_at", "2014-09-23 11:37:58.980750"]]
+  [1m[35m (16.8ms)[0m  COMMIT
+Redirected to http://localhost:3000/
+Completed 302 Found in 91ms (ActiveRecord: 17.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-23 08:37:59 -0300
+Processing by PostsController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1[0m
+  [1m[35mPost Load (0.2ms)[0m  SELECT "posts".* FROM "posts"
+  Rendered posts/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 110ms (Views: 108.6ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2014-09-23 08:37:59 -0300
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2014-09-23 08:37:59 -0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-23 08:37:59 -0300
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2014-09-23 08:37:59 -0300
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-09-23 08:37:59 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-23 08:37:59 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-23 08:37:59 -0300
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-09-23 08:37:59 -0300
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-09-23 08:37:59 -0300
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-09-23 08:37:59 -0300
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-09-23 08:37:59 -0300
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-09-23 08:37:59 -0300
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-09-23 08:37:59 -0300
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-09-23 08:37:59 -0300
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-09-23 08:37:59 -0300
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-09-23 08:37:59 -0300
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-09-23 08:37:59 -0300
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-09-23 08:37:59 -0300
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-09-23 08:37:59 -0300
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2014-09-23 08:37:59 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-23 08:37:59 -0300
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-09-23 08:37:59 -0300
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2014-09-23 08:37:59 -0300
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2014-09-23 08:37:59 -0300
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-09-23 08:37:59 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-23 08:37:59 -0300
+
+
+Started GET "/assets/twitter/fonts/glyphicons-halflings-regular.woff" for 127.0.0.1 at 2014-09-23 08:37:59 -0300
+
+ActionController::RoutingError (No route matches [GET] "/twitter/fonts/glyphicons-halflings-regular.woff"):
+  actionpack (4.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.6) lib/rails/engine.rb:514:in `call'
+  railties (4.1.6) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/federicodinucci/.rbenv/versions/2.0.0-p481/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/federicodinucci/.rbenv/versions/2.0.0-p481/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/federicodinucci/.rbenv/versions/2.0.0-p481/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/federicodinucci/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.6ms)
+  Rendered /home/federicodinucci/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.4ms)
+  Rendered /home/federicodinucci/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.8ms)
+  Rendered /home/federicodinucci/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (57.0ms)
+
+
+Started GET "/assets/twitter/fonts/glyphicons-halflings-regular.ttf" for 127.0.0.1 at 2014-09-23 08:37:59 -0300
+
+ActionController::RoutingError (No route matches [GET] "/twitter/fonts/glyphicons-halflings-regular.ttf"):
+  actionpack (4.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.6) lib/rails/engine.rb:514:in `call'
+  railties (4.1.6) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/federicodinucci/.rbenv/versions/2.0.0-p481/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/federicodinucci/.rbenv/versions/2.0.0-p481/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/federicodinucci/.rbenv/versions/2.0.0-p481/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/federicodinucci/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.6ms)
+  Rendered /home/federicodinucci/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.3ms)
+  Rendered /home/federicodinucci/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.7ms)
+  Rendered /home/federicodinucci/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (16.5ms)
+
+
+Started GET "/assets/twitter/fonts/glyphicons-halflings-regular.svg" for 127.0.0.1 at 2014-09-23 08:37:59 -0300
+
+ActionController::RoutingError (No route matches [GET] "/twitter/fonts/glyphicons-halflings-regular.svg"):
+  actionpack (4.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.6) lib/rails/engine.rb:514:in `call'
+  railties (4.1.6) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/federicodinucci/.rbenv/versions/2.0.0-p481/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/federicodinucci/.rbenv/versions/2.0.0-p481/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/federicodinucci/.rbenv/versions/2.0.0-p481/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/federicodinucci/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.5ms)
+  Rendered /home/federicodinucci/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.4ms)
+  Rendered /home/federicodinucci/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.5ms)
+  Rendered /home/federicodinucci/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (15.1ms)
+
+
+Started GET "/posts/1" for 127.0.0.1 at 2014-09-23 08:38:06 -0300
+Processing by PostsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.9ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1[0m
+  [1m[35mPost Load (0.6ms)[0m  SELECT  "posts".* FROM "posts"  WHERE "posts"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mComment Load (0.6ms)[0m  [1mSELECT "comments".* FROM "comments"  WHERE "comments"."post_id" = $1[0m  [["post_id", 1]]
+  Rendered comments/_comment.html.erb (0.5ms)
+  Rendered comments/_form.html.erb (1.3ms)
+  Rendered posts/show.html.erb within layouts/application (7.2ms)
+Completed 200 OK in 124ms (Views: 116.0ms | ActiveRecord: 2.2ms)
+
+
+Started POST "/posts/1/comments" for 127.0.0.1 at 2014-09-23 08:38:09 -0300
+Processing by CommentsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"oydk/AVHcpoJJuurHkwHOl1Fnw4NDI8Mxr6q+XfMvOQ=", "comment"=>{"commenter"=>"dinu1389@gmail.com", "body"=>"dgdsgsagsagf"}, "commit"=>"Create Comment", "post_id"=>"1"}
+  [1m[35mUser Load (0.5ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1
+  [1m[36mPost Load (0.1ms)[0m  [1mSELECT  "posts".* FROM "posts"  WHERE "posts"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "comments" ("body", "commenter", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["body", "dgdsgsagsagf"], ["commenter", "dinu1389@gmail.com"], ["created_at", "2014-09-23 11:38:09.756931"], ["post_id", 1], ["updated_at", "2014-09-23 11:38:09.756931"]]
+  [1m[35m (40.3ms)[0m  COMMIT
+Redirected to http://localhost:3000/posts/1
+Completed 302 Found in 48ms (ActiveRecord: 41.1ms)
+
+
+Started GET "/posts/1" for 127.0.0.1 at 2014-09-23 08:38:09 -0300
+Processing by PostsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1[0m
+  [1m[35mPost Load (0.1ms)[0m  SELECT  "posts".* FROM "posts"  WHERE "posts"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mComment Load (0.2ms)[0m  [1mSELECT "comments".* FROM "comments"  WHERE "comments"."post_id" = $1[0m  [["post_id", 1]]
+  Rendered comments/_comment.html.erb (0.9ms)
+  Rendered comments/_form.html.erb (1.3ms)
+  Rendered posts/show.html.erb within layouts/application (4.3ms)
+  [1m[36mPost Load (0.2ms)[0m  [1mSELECT  "posts".* FROM "posts"  WHERE "posts"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mComment Load (0.2ms)[0m  SELECT "comments".* FROM "comments"  WHERE "comments"."post_id" = $1  [["post_id", 1]]
+Completed 200 OK in 66ms (Views: 64.3ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2014-09-23 08:38:09 -0300
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-09-23 08:38:09 -0300
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2014-09-23 08:38:09 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-23 08:38:09 -0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-23 08:38:09 -0300
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2014-09-23 08:38:09 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-23 08:38:09 -0300
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-09-23 08:38:09 -0300
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-09-23 08:38:09 -0300
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-09-23 08:38:09 -0300
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-09-23 08:38:09 -0300
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-09-23 08:38:09 -0300
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-09-23 08:38:09 -0300
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-09-23 08:38:10 -0300
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-09-23 08:38:10 -0300
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-09-23 08:38:10 -0300
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-09-23 08:38:10 -0300
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-09-23 08:38:10 -0300
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-09-23 08:38:10 -0300
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2014-09-23 08:38:10 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-23 08:38:10 -0300
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-09-23 08:38:10 -0300
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2014-09-23 08:38:10 -0300
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2014-09-23 08:38:10 -0300
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-09-23 08:38:10 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-23 08:38:10 -0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to AddProviderToUsers (20140923114712)
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (49.9ms)[0m  [1mALTER TABLE "users" ADD COLUMN "provider" character varying(255)[0m
+  [1m[35m (0.3ms)[0m  ALTER TABLE "users" ADD COLUMN "uid" character varying(255)
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ($1)[0m  [["version", "20140923114712"]]
+  [1m[35m (11.8ms)[0m  COMMIT
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-23 09:12:06 -0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PostsController#index as HTML
+  [1m[35mUser Load (0.5ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1
+  [1m[36mPost Load (0.3ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+  Rendered posts/index.html.erb within layouts/application (6.6ms)
+Completed 200 OK in 215ms (Views: 186.9ms | ActiveRecord: 3.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-23 09:12:06 -0300
+Processing by PostsController#index as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1
+  [1m[36mPost Load (0.2ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+  Rendered posts/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 102ms (Views: 100.7ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2014-09-23 09:12:06 -0300
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2014-09-23 09:12:06 -0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-23 09:12:06 -0300
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-09-23 09:12:06 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-23 09:12:06 -0300
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2014-09-23 09:12:06 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-23 09:12:06 -0300
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-09-23 09:12:06 -0300
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-09-23 09:12:06 -0300
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-09-23 09:12:06 -0300
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-09-23 09:12:06 -0300
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-09-23 09:12:06 -0300
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-09-23 09:12:06 -0300
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-09-23 09:12:06 -0300
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-09-23 09:12:06 -0300
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-09-23 09:12:06 -0300
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-09-23 09:12:06 -0300
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-09-23 09:12:06 -0300
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-09-23 09:12:06 -0300
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2014-09-23 09:12:06 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-23 09:12:06 -0300
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-09-23 09:12:06 -0300
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2014-09-23 09:12:06 -0300
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2014-09-23 09:12:06 -0300
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-09-23 09:12:06 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-23 09:12:06 -0300
+
+
+Started GET "/assets/twitter/fonts/glyphicons-halflings-regular.woff" for 127.0.0.1 at 2014-09-23 09:12:06 -0300
+
+ActionController::RoutingError (No route matches [GET] "/twitter/fonts/glyphicons-halflings-regular.woff"):
+  actionpack (4.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.6) lib/rails/engine.rb:514:in `call'
+  railties (4.1.6) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/federicodinucci/.rbenv/versions/2.0.0-p481/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/federicodinucci/.rbenv/versions/2.0.0-p481/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/federicodinucci/.rbenv/versions/2.0.0-p481/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/federicodinucci/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.8ms)
+  Rendered /home/federicodinucci/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.6ms)
+  Rendered /home/federicodinucci/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (3.0ms)
+  Rendered /home/federicodinucci/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (60.4ms)
+
+
+Started GET "/assets/twitter/fonts/glyphicons-halflings-regular.ttf" for 127.0.0.1 at 2014-09-23 09:12:06 -0300
+
+ActionController::RoutingError (No route matches [GET] "/twitter/fonts/glyphicons-halflings-regular.ttf"):
+  actionpack (4.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.6) lib/rails/engine.rb:514:in `call'
+  railties (4.1.6) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/federicodinucci/.rbenv/versions/2.0.0-p481/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/federicodinucci/.rbenv/versions/2.0.0-p481/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/federicodinucci/.rbenv/versions/2.0.0-p481/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/federicodinucci/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.5ms)
+  Rendered /home/federicodinucci/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.7ms)
+  Rendered /home/federicodinucci/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.6ms)
+  Rendered /home/federicodinucci/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (16.5ms)
+
+
+Started GET "/assets/twitter/fonts/glyphicons-halflings-regular.svg" for 127.0.0.1 at 2014-09-23 09:12:06 -0300
+
+ActionController::RoutingError (No route matches [GET] "/twitter/fonts/glyphicons-halflings-regular.svg"):
+  actionpack (4.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.6) lib/rails/engine.rb:514:in `call'
+  railties (4.1.6) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/federicodinucci/.rbenv/versions/2.0.0-p481/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/federicodinucci/.rbenv/versions/2.0.0-p481/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/federicodinucci/.rbenv/versions/2.0.0-p481/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/federicodinucci/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.5ms)
+  Rendered /home/federicodinucci/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.8ms)
+  Rendered /home/federicodinucci/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.7ms)
+  Rendered /home/federicodinucci/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (16.7ms)
+
+
+Started DELETE "/users/sign_out" for 127.0.0.1 at 2014-09-23 09:12:08 -0300
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"oydk/AVHcpoJJuurHkwHOl1Fnw4NDI8Mxr6q+XfMvOQ="}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+Redirected to http://localhost:3000/
+Completed 302 Found in 7ms (ActiveRecord: 0.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-23 09:12:08 -0300
+Processing by PostsController#index as HTML
+Completed 401 Unauthorized in 5ms
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2014-09-23 09:12:08 -0300
+Processing by Devise::SessionsController#new as HTML
+  Rendered users/shared/_links.erb (1.1ms)
+  Rendered users/sessions/new.html.erb within layouts/application (7.6ms)
+Completed 200 OK in 109ms (Views: 107.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2014-09-23 09:12:08 -0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-23 09:12:08 -0300
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2014-09-23 09:12:08 -0300
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-09-23 09:12:08 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-23 09:12:08 -0300
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2014-09-23 09:12:08 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-23 09:12:08 -0300
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-09-23 09:12:08 -0300
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-09-23 09:12:08 -0300
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-09-23 09:12:08 -0300
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-09-23 09:12:08 -0300
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-09-23 09:12:08 -0300
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-09-23 09:12:08 -0300
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-09-23 09:12:08 -0300
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-09-23 09:12:08 -0300
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-09-23 09:12:08 -0300
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-09-23 09:12:08 -0300
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-09-23 09:12:08 -0300
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-09-23 09:12:08 -0300
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2014-09-23 09:12:08 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-23 09:12:08 -0300
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-09-23 09:12:08 -0300
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2014-09-23 09:12:08 -0300
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2014-09-23 09:12:08 -0300
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-09-23 09:12:08 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-23 09:12:08 -0300
+
+
+Started GET "/users/auth/facebook" for 127.0.0.1 at 2014-09-23 09:12:10 -0300
+
+
+Started GET "/users/auth/facebook" for 127.0.0.1 at 2014-09-23 09:12:10 -0300
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-23 09:16:37 -0300
+Processing by PostsController#index as HTML
+Completed 401 Unauthorized in 1ms
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2014-09-23 09:16:37 -0300
+Processing by Devise::SessionsController#new as HTML
+  Rendered users/shared/_links.erb (0.4ms)
+  Rendered users/sessions/new.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 122ms (Views: 120.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2014-09-23 09:16:38 -0300
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-09-23 09:16:38 -0300
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2014-09-23 09:16:38 -0300
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2014-09-23 09:16:38 -0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-23 09:16:38 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-23 09:16:38 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-23 09:16:38 -0300
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-09-23 09:16:38 -0300
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-09-23 09:16:38 -0300
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-09-23 09:16:38 -0300
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-09-23 09:16:38 -0300
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-09-23 09:16:38 -0300
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-09-23 09:16:38 -0300
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-09-23 09:16:38 -0300
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-09-23 09:16:38 -0300
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-09-23 09:16:38 -0300
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-09-23 09:16:38 -0300
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-09-23 09:16:38 -0300
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-09-23 09:16:38 -0300
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2014-09-23 09:16:38 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-23 09:16:38 -0300
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-09-23 09:16:38 -0300
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2014-09-23 09:16:38 -0300
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2014-09-23 09:16:38 -0300
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-09-23 09:16:38 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-23 09:16:38 -0300
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2014-09-23 09:18:07 -0300
+Processing by Devise::SessionsController#new as HTML
+  Rendered users/shared/_links.erb (0.4ms)
+  Rendered users/sessions/new.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 109ms (Views: 107.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2014-09-23 09:18:07 -0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-23 09:18:07 -0300
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2014-09-23 09:18:07 -0300
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2014-09-23 09:18:07 -0300
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-09-23 09:18:07 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-23 09:18:07 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-23 09:18:07 -0300
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-09-23 09:18:07 -0300
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-09-23 09:18:07 -0300
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-09-23 09:18:07 -0300
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-09-23 09:18:07 -0300
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-09-23 09:18:07 -0300
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-09-23 09:18:07 -0300
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-09-23 09:18:07 -0300
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-09-23 09:18:07 -0300
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-09-23 09:18:07 -0300
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-09-23 09:18:07 -0300
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-09-23 09:18:07 -0300
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-09-23 09:18:07 -0300
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2014-09-23 09:18:07 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-23 09:18:07 -0300
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-09-23 09:18:07 -0300
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2014-09-23 09:18:07 -0300
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2014-09-23 09:18:07 -0300
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-09-23 09:18:07 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-23 09:18:07 -0300
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2014-09-23 09:18:19 -0300
+Processing by Devise::SessionsController#new as HTML
+  Rendered users/shared/_links.erb (0.4ms)
+  Rendered users/sessions/new.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 113ms (Views: 109.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2014-09-23 09:18:19 -0300
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-09-23 09:18:19 -0300
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2014-09-23 09:18:19 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-23 09:18:19 -0300
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2014-09-23 09:18:19 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-23 09:18:19 -0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-23 09:18:19 -0300
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-09-23 09:18:19 -0300
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-09-23 09:18:19 -0300
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-09-23 09:18:19 -0300
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-09-23 09:18:19 -0300
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-09-23 09:18:19 -0300
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-09-23 09:18:19 -0300
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-09-23 09:18:19 -0300
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-09-23 09:18:19 -0300
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-09-23 09:18:19 -0300
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-09-23 09:18:19 -0300
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-09-23 09:18:19 -0300
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-09-23 09:18:19 -0300
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2014-09-23 09:18:19 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-23 09:18:19 -0300
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-09-23 09:18:19 -0300
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2014-09-23 09:18:19 -0300
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2014-09-23 09:18:19 -0300
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-09-23 09:18:19 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-23 09:18:19 -0300
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2014-09-23 09:19:01 -0300
+Processing by Devise::SessionsController#new as HTML
+  Rendered users/shared/_links.erb (0.4ms)
+  Rendered users/sessions/new.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 114ms (Views: 110.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2014-09-23 09:19:02 -0300
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2014-09-23 09:19:02 -0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-23 09:19:02 -0300
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2014-09-23 09:19:02 -0300
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-09-23 09:19:02 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-23 09:19:02 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-23 09:19:02 -0300
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-09-23 09:19:02 -0300
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-09-23 09:19:02 -0300
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-09-23 09:19:02 -0300
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-09-23 09:19:02 -0300
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-09-23 09:19:02 -0300
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-09-23 09:19:02 -0300
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-09-23 09:19:02 -0300
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-09-23 09:19:02 -0300
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-09-23 09:19:02 -0300
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-09-23 09:19:02 -0300
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-09-23 09:19:02 -0300
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-09-23 09:19:02 -0300
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2014-09-23 09:19:02 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-23 09:19:02 -0300
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-09-23 09:19:02 -0300
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2014-09-23 09:19:02 -0300
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2014-09-23 09:19:02 -0300
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-09-23 09:19:02 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-23 09:19:02 -0300
+
+
+Started GET "/users/auth/facebook" for 127.0.0.1 at 2014-09-23 09:20:20 -0300
+
+
+Started GET "/users/auth/facebook" for 127.0.0.1 at 2014-09-23 09:20:21 -0300
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-23 09:21:37 -0300
+Processing by PostsController#index as HTML
+Completed 401 Unauthorized in 0ms
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2014-09-23 09:21:37 -0300
+Processing by Devise::SessionsController#new as HTML
+  Rendered users/shared/_links.erb (0.6ms)
+  Rendered users/sessions/new.html.erb within layouts/application (4.1ms)
+Completed 200 OK in 142ms (Views: 140.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-23 09:21:37 -0300
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-09-23 09:21:37 -0300
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2014-09-23 09:21:37 -0300
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2014-09-23 09:21:37 -0300
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2014-09-23 09:21:37 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-23 09:21:37 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-23 09:21:37 -0300
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-09-23 09:21:37 -0300
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-09-23 09:21:37 -0300
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-09-23 09:21:37 -0300
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-09-23 09:21:37 -0300
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-09-23 09:21:37 -0300
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-09-23 09:21:37 -0300
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-09-23 09:21:37 -0300
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-09-23 09:21:37 -0300
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-09-23 09:21:37 -0300
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-09-23 09:21:37 -0300
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-09-23 09:21:37 -0300
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-09-23 09:21:37 -0300
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2014-09-23 09:21:37 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-23 09:21:37 -0300
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-09-23 09:21:37 -0300
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2014-09-23 09:21:37 -0300
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2014-09-23 09:21:37 -0300
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-09-23 09:21:37 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-23 09:21:37 -0300
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2014-09-23 09:21:55 -0300
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"e2E0g7cYwb9enFaEM1BBKiKnNL9AvBhJWHTEjrpxoTw=", "user"=>{"email"=>"dinu1389@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[36mUser Load (0.6ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."email" = 'dinu1389@gmail.com'  ORDER BY "users"."id" ASC LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mUPDATE "users" SET "current_sign_in_at" = $1, "last_sign_in_at" = $2, "sign_in_count" = $3, "updated_at" = $4 WHERE "users"."id" = 1[0m  [["current_sign_in_at", "2014-09-23 12:21:55.762189"], ["last_sign_in_at", "2014-09-23 11:37:58.980083"], ["sign_in_count", 10], ["updated_at", "2014-09-23 12:21:55.763254"]]
+  [1m[35m (18.5ms)[0m  COMMIT
+Redirected to http://localhost:3000/
+Completed 302 Found in 86ms (ActiveRecord: 19.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-23 09:21:55 -0300
+Processing by PostsController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1[0m
+  [1m[35mPost Load (0.3ms)[0m  SELECT "posts".* FROM "posts"
+  Rendered posts/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 110ms (Views: 108.1ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2014-09-23 09:21:55 -0300
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2014-09-23 09:21:55 -0300
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-09-23 09:21:55 -0300
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2014-09-23 09:21:55 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-23 09:21:55 -0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-23 09:21:55 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-23 09:21:55 -0300
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-09-23 09:21:55 -0300
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-09-23 09:21:55 -0300
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-09-23 09:21:55 -0300
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-09-23 09:21:55 -0300
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-09-23 09:21:56 -0300
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-09-23 09:21:56 -0300
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-09-23 09:21:56 -0300
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-09-23 09:21:56 -0300
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-09-23 09:21:56 -0300
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-09-23 09:21:56 -0300
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-09-23 09:21:56 -0300
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-09-23 09:21:56 -0300
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2014-09-23 09:21:56 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-23 09:21:56 -0300
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-09-23 09:21:56 -0300
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2014-09-23 09:21:56 -0300
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2014-09-23 09:21:56 -0300
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-09-23 09:21:56 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-23 09:21:56 -0300
+
+
+Started GET "/assets/twitter/fonts/glyphicons-halflings-regular.woff" for 127.0.0.1 at 2014-09-23 09:21:56 -0300
+
+ActionController::RoutingError (No route matches [GET] "/twitter/fonts/glyphicons-halflings-regular.woff"):
+  actionpack (4.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.6) lib/rails/engine.rb:514:in `call'
+  railties (4.1.6) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/federicodinucci/.rbenv/versions/2.0.0-p481/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/federicodinucci/.rbenv/versions/2.0.0-p481/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/federicodinucci/.rbenv/versions/2.0.0-p481/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/federicodinucci/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.8ms)
+  Rendered /home/federicodinucci/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.9ms)
+  Rendered /home/federicodinucci/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.8ms)
+  Rendered /home/federicodinucci/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (20.4ms)
+
+
+Started GET "/assets/twitter/fonts/glyphicons-halflings-regular.ttf" for 127.0.0.1 at 2014-09-23 09:21:56 -0300
+
+ActionController::RoutingError (No route matches [GET] "/twitter/fonts/glyphicons-halflings-regular.ttf"):
+  actionpack (4.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.6) lib/rails/engine.rb:514:in `call'
+  railties (4.1.6) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/federicodinucci/.rbenv/versions/2.0.0-p481/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/federicodinucci/.rbenv/versions/2.0.0-p481/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/federicodinucci/.rbenv/versions/2.0.0-p481/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/federicodinucci/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.7ms)
+  Rendered /home/federicodinucci/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.5ms)
+  Rendered /home/federicodinucci/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.9ms)
+  Rendered /home/federicodinucci/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (18.2ms)
+
+
+Started GET "/assets/twitter/fonts/glyphicons-halflings-regular.svg" for 127.0.0.1 at 2014-09-23 09:21:56 -0300
+
+ActionController::RoutingError (No route matches [GET] "/twitter/fonts/glyphicons-halflings-regular.svg"):
+  actionpack (4.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.6) lib/rails/engine.rb:514:in `call'
+  railties (4.1.6) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/federicodinucci/.rbenv/versions/2.0.0-p481/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/federicodinucci/.rbenv/versions/2.0.0-p481/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/federicodinucci/.rbenv/versions/2.0.0-p481/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/federicodinucci/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.5ms)
+  Rendered /home/federicodinucci/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.5ms)
+  Rendered /home/federicodinucci/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.6ms)
+  Rendered /home/federicodinucci/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (16.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-23 09:25:17 -0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PostsController#index as HTML
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1
+  [1m[36mPost Load (0.4ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+  Rendered posts/index.html.erb within layouts/application (7.0ms)
+Completed 200 OK in 205ms (Views: 180.6ms | ActiveRecord: 3.4ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2014-09-23 09:25:17 -0300
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2014-09-23 09:25:17 -0300
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-09-23 09:25:17 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-23 09:25:17 -0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-23 09:25:17 -0300
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2014-09-23 09:25:17 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-23 09:25:17 -0300
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-09-23 09:25:17 -0300
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-09-23 09:25:17 -0300
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-09-23 09:25:18 -0300
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-09-23 09:25:18 -0300
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-09-23 09:25:18 -0300
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-09-23 09:25:18 -0300
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-09-23 09:25:18 -0300
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-09-23 09:25:18 -0300
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-09-23 09:25:18 -0300
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-09-23 09:25:18 -0300
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-09-23 09:25:18 -0300
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-09-23 09:25:18 -0300
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2014-09-23 09:25:18 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-23 09:25:18 -0300
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-09-23 09:25:18 -0300
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2014-09-23 09:25:18 -0300
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2014-09-23 09:25:18 -0300
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-09-23 09:25:18 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-23 09:25:18 -0300
+
+
+Started GET "/assets/twitter/fonts/glyphicons-halflings-regular.woff" for 127.0.0.1 at 2014-09-23 09:25:18 -0300
+
+ActionController::RoutingError (No route matches [GET] "/twitter/fonts/glyphicons-halflings-regular.woff"):
+  actionpack (4.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.6) lib/rails/engine.rb:514:in `call'
+  railties (4.1.6) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/federicodinucci/.rbenv/versions/2.0.0-p481/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/federicodinucci/.rbenv/versions/2.0.0-p481/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/federicodinucci/.rbenv/versions/2.0.0-p481/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/federicodinucci/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.6ms)
+  Rendered /home/federicodinucci/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.7ms)
+  Rendered /home/federicodinucci/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (3.1ms)
+  Rendered /home/federicodinucci/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (23.2ms)
+
+
+Started GET "/assets/twitter/fonts/glyphicons-halflings-regular.ttf" for 127.0.0.1 at 2014-09-23 09:25:18 -0300
+
+ActionController::RoutingError (No route matches [GET] "/twitter/fonts/glyphicons-halflings-regular.ttf"):
+  actionpack (4.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.6) lib/rails/engine.rb:514:in `call'
+  railties (4.1.6) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/federicodinucci/.rbenv/versions/2.0.0-p481/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/federicodinucci/.rbenv/versions/2.0.0-p481/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/federicodinucci/.rbenv/versions/2.0.0-p481/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/federicodinucci/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.7ms)
+  Rendered /home/federicodinucci/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.6ms)
+  Rendered /home/federicodinucci/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.6ms)
+  Rendered /home/federicodinucci/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (16.4ms)
+
+
+Started GET "/assets/twitter/fonts/glyphicons-halflings-regular.svg" for 127.0.0.1 at 2014-09-23 09:25:18 -0300
+
+ActionController::RoutingError (No route matches [GET] "/twitter/fonts/glyphicons-halflings-regular.svg"):
+  actionpack (4.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.6) lib/rails/engine.rb:514:in `call'
+  railties (4.1.6) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/federicodinucci/.rbenv/versions/2.0.0-p481/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/federicodinucci/.rbenv/versions/2.0.0-p481/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/federicodinucci/.rbenv/versions/2.0.0-p481/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/federicodinucci/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.6ms)
+  Rendered /home/federicodinucci/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.8ms)
+  Rendered /home/federicodinucci/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.6ms)
+  Rendered /home/federicodinucci/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (17.0ms)
+
+
+Started DELETE "/users/sign_out" for 127.0.0.1 at 2014-09-23 09:25:19 -0300
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"K6NHdYATIZ4+/7YtPFyJBlc7+0zmwX6mb5l387NXjTk="}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+Redirected to http://localhost:3000/
+Completed 302 Found in 45ms (ActiveRecord: 0.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-23 09:25:19 -0300
+Processing by PostsController#index as HTML
+Completed 401 Unauthorized in 5ms
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2014-09-23 09:25:19 -0300
+Processing by Devise::SessionsController#new as HTML
+  Rendered users/shared/_links.erb (1.0ms)
+  Rendered users/sessions/new.html.erb within layouts/application (6.8ms)
+Completed 200 OK in 107ms (Views: 106.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2014-09-23 09:25:19 -0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-23 09:25:19 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-23 09:25:19 -0300
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-09-23 09:25:19 -0300
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2014-09-23 09:25:19 -0300
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2014-09-23 09:25:19 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-23 09:25:19 -0300
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-09-23 09:25:19 -0300
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-09-23 09:25:19 -0300
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-09-23 09:25:19 -0300
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-09-23 09:25:19 -0300
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-09-23 09:25:19 -0300
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-09-23 09:25:19 -0300
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-09-23 09:25:19 -0300
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-09-23 09:25:19 -0300
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-09-23 09:25:19 -0300
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-09-23 09:25:19 -0300
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-09-23 09:25:19 -0300
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-09-23 09:25:19 -0300
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2014-09-23 09:25:19 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-23 09:25:19 -0300
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-09-23 09:25:19 -0300
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2014-09-23 09:25:19 -0300
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2014-09-23 09:25:19 -0300
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-09-23 09:25:19 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-23 09:25:19 -0300
+
+
+Started GET "/users/auth/facebook" for 127.0.0.1 at 2014-09-23 09:25:21 -0300
+
+
+Started GET "/users/auth/facebook" for 127.0.0.1 at 2014-09-23 09:25:21 -0300
+  [1m[36mPost Load (0.2ms)[0m  [1mSELECT  "posts".* FROM "posts"  WHERE "posts"."id" = $1 LIMIT 1[0m  [["id", 0]]
+
+
+Started GET "/users/auth/facebook/callback?code=AQA_OfhIiYrUwz33V2ifAOJKeiecYKpWpX80QKCMwfLMWIqs-4ZcvnwuLMGqS5kIkfIEXCycewc_91KM8xMRKMXLVXxl3VrssxVxe1i5MYD_f9_v-TRc2McLTtQM7uNzWin3dznNga5LKQfDeCb4ywKcGIRp6OP8bO2FeEzXJoPMzx3n5HAody-1ZFDnkBm05cfhJyRVPQNi-OZ5SLwBbnOc5mWNUMm0_qiYk3U85w9PoTLCWWaU-uCAsuz6_X2J9LUfpgJm8dLTeteIoZLNcWSPaA4APG7lYisZ6EPab_bP8xfpBVQQHF4iJtR1mJFZmtSxJfstQOAerGBIujzbL9Pu&state=b41e429e9bce9fbfe596e912c51fa2345dd0c7234df3b8c4" for 127.0.0.1 at 2014-09-23 09:25:26 -0300
+Processing by OmniauthCallbacksController#facebook as HTML
+  Parameters: {"code"=>"AQA_OfhIiYrUwz33V2ifAOJKeiecYKpWpX80QKCMwfLMWIqs-4ZcvnwuLMGqS5kIkfIEXCycewc_91KM8xMRKMXLVXxl3VrssxVxe1i5MYD_f9_v-TRc2McLTtQM7uNzWin3dznNga5LKQfDeCb4ywKcGIRp6OP8bO2FeEzXJoPMzx3n5HAody-1ZFDnkBm05cfhJyRVPQNi-OZ5SLwBbnOc5mWNUMm0_qiYk3U85w9PoTLCWWaU-uCAsuz6_X2J9LUfpgJm8dLTeteIoZLNcWSPaA4APG7lYisZ6EPab_bP8xfpBVQQHF4iJtR1mJFZmtSxJfstQOAerGBIujzbL9Pu", "state"=>"b41e429e9bce9fbfe596e912c51fa2345dd0c7234df3b8c4"}
+  [1m[36mUser Load (0.6ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."provider" = 'facebook' AND "users"."uid" = '10204437287429654'  ORDER BY "users"."id" ASC LIMIT 1[0m
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."email" = 'dinu1389@gmail.com'  ORDER BY "users"."id" ASC LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  UPDATE "users" SET "current_sign_in_at" = $1, "last_sign_in_at" = $2, "sign_in_count" = $3, "updated_at" = $4 WHERE "users"."id" = 1  [["current_sign_in_at", "2014-09-23 12:25:27.781742"], ["last_sign_in_at", "2014-09-23 12:21:55.762189"], ["sign_in_count", 11], ["updated_at", "2014-09-23 12:25:27.782581"]]
+  [1m[36m (17.4ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 24ms (ActiveRecord: 18.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-23 09:25:27 -0300
+Processing by PostsController#index as HTML
+  [1m[35mUser Load (0.6ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1
+  [1m[36mPost Load (0.2ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+  Rendered posts/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 107ms (Views: 104.9ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2014-09-23 09:25:27 -0300
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2014-09-23 09:25:27 -0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-23 09:25:27 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-23 09:25:27 -0300
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-09-23 09:25:27 -0300
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2014-09-23 09:25:27 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-23 09:25:27 -0300
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-09-23 09:25:27 -0300
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-09-23 09:25:27 -0300
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-09-23 09:25:28 -0300
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-09-23 09:25:28 -0300
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-09-23 09:25:28 -0300
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-09-23 09:25:28 -0300
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-09-23 09:25:28 -0300
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-09-23 09:25:28 -0300
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-09-23 09:25:28 -0300
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-09-23 09:25:28 -0300
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-09-23 09:25:28 -0300
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-09-23 09:25:28 -0300
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2014-09-23 09:25:28 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-23 09:25:28 -0300
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-09-23 09:25:28 -0300
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2014-09-23 09:25:28 -0300
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2014-09-23 09:25:28 -0300
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-09-23 09:25:28 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-23 09:25:28 -0300
+
+
+Started GET "/assets/twitter/fonts/glyphicons-halflings-regular.woff" for 127.0.0.1 at 2014-09-23 09:25:28 -0300
+
+ActionController::RoutingError (No route matches [GET] "/twitter/fonts/glyphicons-halflings-regular.woff"):
+  actionpack (4.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.6) lib/rails/engine.rb:514:in `call'
+  railties (4.1.6) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/federicodinucci/.rbenv/versions/2.0.0-p481/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/federicodinucci/.rbenv/versions/2.0.0-p481/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/federicodinucci/.rbenv/versions/2.0.0-p481/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/federicodinucci/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.5ms)
+  Rendered /home/federicodinucci/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.8ms)
+  Rendered /home/federicodinucci/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.2ms)
+  Rendered /home/federicodinucci/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (18.4ms)
+
+
+Started GET "/assets/twitter/fonts/glyphicons-halflings-regular.ttf" for 127.0.0.1 at 2014-09-23 09:25:28 -0300
+
+ActionController::RoutingError (No route matches [GET] "/twitter/fonts/glyphicons-halflings-regular.ttf"):
+  actionpack (4.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.6) lib/rails/engine.rb:514:in `call'
+  railties (4.1.6) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/federicodinucci/.rbenv/versions/2.0.0-p481/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/federicodinucci/.rbenv/versions/2.0.0-p481/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/federicodinucci/.rbenv/versions/2.0.0-p481/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/federicodinucci/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.5ms)
+  Rendered /home/federicodinucci/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.5ms)
+  Rendered /home/federicodinucci/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.6ms)
+  Rendered /home/federicodinucci/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (16.6ms)
+
+
+Started GET "/assets/twitter/fonts/glyphicons-halflings-regular.svg" for 127.0.0.1 at 2014-09-23 09:25:28 -0300
+
+ActionController::RoutingError (No route matches [GET] "/twitter/fonts/glyphicons-halflings-regular.svg"):
+  actionpack (4.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.6) lib/rails/engine.rb:514:in `call'
+  railties (4.1.6) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/federicodinucci/.rbenv/versions/2.0.0-p481/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/federicodinucci/.rbenv/versions/2.0.0-p481/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/federicodinucci/.rbenv/versions/2.0.0-p481/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/federicodinucci/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.6ms)
+  Rendered /home/federicodinucci/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.6ms)
+  Rendered /home/federicodinucci/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.6ms)
+  Rendered /home/federicodinucci/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (16.9ms)
+
+
+Started GET "/posts/1" for 127.0.0.1 at 2014-09-23 09:26:02 -0300
+Processing by PostsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mUser Load (0.6ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1
+  [1m[36mPost Load (0.4ms)[0m  [1mSELECT  "posts".* FROM "posts"  WHERE "posts"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mComment Load (0.2ms)[0m  SELECT "comments".* FROM "comments"  WHERE "comments"."post_id" = $1  [["post_id", 1]]
+  Rendered comments/_comment.html.erb (1.5ms)
+  Rendered comments/_form.html.erb (3.3ms)
+  Rendered posts/show.html.erb within layouts/application (20.3ms)
+Completed 200 OK in 131ms (Views: 125.3ms | ActiveRecord: 2.3ms)
+
+
+Started POST "/posts/1/comments" for 127.0.0.1 at 2014-09-23 09:26:05 -0300
+Processing by CommentsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"uXzAYeW44JI3J+CbGfNqx2lFsB7aTauGpcoCG182UbU=", "comment"=>{"commenter"=>"dinu1389@gmail.com", "body"=>"afadfadadgadgadfgafgad"}, "commit"=>"Create Comment", "post_id"=>"1"}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1[0m
+  [1m[35mPost Load (0.2ms)[0m  SELECT  "posts".* FROM "posts"  WHERE "posts"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "comments" ("body", "commenter", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["body", "afadfadadgadgadfgafgad"], ["commenter", "dinu1389@gmail.com"], ["created_at", "2014-09-23 12:26:05.708748"], ["post_id", 1], ["updated_at", "2014-09-23 12:26:05.708748"]]
+  [1m[36m (14.5ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/posts/1
+Completed 302 Found in 26ms (ActiveRecord: 15.3ms)
+
+
+Started GET "/posts/1" for 127.0.0.1 at 2014-09-23 09:26:05 -0300
+  [1m[35mPost Load (0.3ms)[0m  SELECT  "posts".* FROM "posts"  WHERE "posts"."id" = $1 LIMIT 1  [["id", 1]]
+Processing by PostsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1
+  [1m[36mPost Load (0.2ms)[0m  [1mSELECT  "posts".* FROM "posts"  WHERE "posts"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mComment Load (0.2ms)[0m  SELECT "comments".* FROM "comments"  WHERE "comments"."post_id" = $1  [["post_id", 1]]
+  [1m[36mComment Load (0.3ms)[0m  [1mSELECT "comments".* FROM "comments"  WHERE "comments"."post_id" = $1[0m  [["post_id", 1]]
+  Rendered comments/_comment.html.erb (1.2ms)
+  Rendered comments/_form.html.erb (1.4ms)
+  Rendered posts/show.html.erb within layouts/application (5.1ms)
+Completed 200 OK in 112ms (Views: 109.3ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2014-09-23 09:26:05 -0300
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2014-09-23 09:26:05 -0300
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2014-09-23 09:26:05 -0300
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-09-23 09:26:05 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-23 09:26:05 -0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-23 09:26:05 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-23 09:26:05 -0300
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-09-23 09:26:05 -0300
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-09-23 09:26:05 -0300
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-09-23 09:26:05 -0300
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-09-23 09:26:05 -0300
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-09-23 09:26:05 -0300
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-09-23 09:26:05 -0300
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-09-23 09:26:05 -0300
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-09-23 09:26:05 -0300
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-09-23 09:26:05 -0300
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-09-23 09:26:05 -0300
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-09-23 09:26:05 -0300
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-09-23 09:26:05 -0300
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2014-09-23 09:26:05 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-23 09:26:05 -0300
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-09-23 09:26:05 -0300
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2014-09-23 09:26:05 -0300
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2014-09-23 09:26:05 -0300
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-09-23 09:26:05 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-23 09:26:05 -0300
+
+
+Started DELETE "/users/sign_out" for 127.0.0.1 at 2014-09-23 09:28:06 -0300
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"uXzAYeW44JI3J+CbGfNqx2lFsB7aTauGpcoCG182UbU="}
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 3ms (ActiveRecord: 0.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-23 09:28:06 -0300
+Processing by PostsController#index as HTML
+Completed 401 Unauthorized in 0ms
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2014-09-23 09:28:06 -0300
+Processing by Devise::SessionsController#new as HTML
+  Rendered users/shared/_links.erb (0.4ms)
+  Rendered users/sessions/new.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 107ms (Views: 105.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2014-09-23 09:28:06 -0300
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2014-09-23 09:28:06 -0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-23 09:28:06 -0300
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2014-09-23 09:28:06 -0300
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-09-23 09:28:06 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-23 09:28:06 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-23 09:28:06 -0300
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-09-23 09:28:06 -0300
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-09-23 09:28:06 -0300
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-09-23 09:28:06 -0300
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-09-23 09:28:06 -0300
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-09-23 09:28:06 -0300
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-09-23 09:28:06 -0300
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-09-23 09:28:06 -0300
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-09-23 09:28:06 -0300
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-09-23 09:28:06 -0300
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-09-23 09:28:06 -0300
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-09-23 09:28:06 -0300
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-09-23 09:28:06 -0300
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2014-09-23 09:28:06 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-23 09:28:06 -0300
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-09-23 09:28:06 -0300
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2014-09-23 09:28:06 -0300
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2014-09-23 09:28:06 -0300
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-09-23 09:28:06 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-23 09:28:06 -0300
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2014-09-23 09:30:11 -0300
+Processing by Devise::SessionsController#new as HTML
+  Rendered users/shared/_links.erb (0.5ms)
+  Rendered users/sessions/new.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 68ms (Views: 67.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2014-09-23 09:30:11 -0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-23 09:30:11 -0300
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2014-09-23 09:30:11 -0300
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2014-09-23 09:30:11 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-23 09:30:11 -0300
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-09-23 09:30:11 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-23 09:30:11 -0300
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-09-23 09:30:11 -0300
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-09-23 09:30:11 -0300
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-09-23 09:30:11 -0300
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-09-23 09:30:11 -0300
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-09-23 09:30:11 -0300
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-09-23 09:30:11 -0300
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-09-23 09:30:11 -0300
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-09-23 09:30:11 -0300
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-09-23 09:30:11 -0300
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-09-23 09:30:11 -0300
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-09-23 09:30:11 -0300
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-09-23 09:30:11 -0300
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2014-09-23 09:30:11 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-23 09:30:11 -0300
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-09-23 09:30:11 -0300
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2014-09-23 09:30:11 -0300
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2014-09-23 09:30:11 -0300
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-09-23 09:30:11 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-23 09:30:11 -0300
+
+
+Started GET "/users/auth/facebook" for 127.0.0.1 at 2014-09-23 09:30:42 -0300
+
+
+Started GET "/users/auth/facebook" for 127.0.0.1 at 2014-09-23 09:30:45 -0300
+
+
+Started GET "/users/auth/facebook" for 127.0.0.1 at 2014-09-23 09:30:47 -0300
+
+
+Started GET "/users/auth/facebook/callback?code=AQDNABaT14MtgMHYR3qdR1mZheN7qu66JU-JNz6NGqZGWGF6ZmxKEVPATY_sasSAorbRnbEVcc7IDBUM6ls0_3EevjsVlN9qsWoMQx8wma4wobAHXMdumamWKa8mkM8znQ3FB_GuzED8LBTVofX6z2Q_fUFh_rcfZNhhWjDWPwXmUvpJNSLkeJDOLyVKwfeC5LGoQKFHdlcKxdwPsx4xboIQrr9bV0bNXSLn_kD8BfzyFx3J7E4FJUIGpL3Kbmi50iqboZFe4ZfYlkUyVWSXmyQseTiIHWCdgJorI7uwiMK4S9RYSZtc_ndYwYp3rKtyiZwt0JybJlygjI-uuhuUJtlt&state=8b9dfd7f58a083c026504724e5cecc7bebfc61f52ccf6404" for 127.0.0.1 at 2014-09-23 09:30:49 -0300
+Processing by OmniauthCallbacksController#failure as HTML
+  Parameters: {"code"=>"AQDNABaT14MtgMHYR3qdR1mZheN7qu66JU-JNz6NGqZGWGF6ZmxKEVPATY_sasSAorbRnbEVcc7IDBUM6ls0_3EevjsVlN9qsWoMQx8wma4wobAHXMdumamWKa8mkM8znQ3FB_GuzED8LBTVofX6z2Q_fUFh_rcfZNhhWjDWPwXmUvpJNSLkeJDOLyVKwfeC5LGoQKFHdlcKxdwPsx4xboIQrr9bV0bNXSLn_kD8BfzyFx3J7E4FJUIGpL3Kbmi50iqboZFe4ZfYlkUyVWSXmyQseTiIHWCdgJorI7uwiMK4S9RYSZtc_ndYwYp3rKtyiZwt0JybJlygjI-uuhuUJtlt", "state"=>"8b9dfd7f58a083c026504724e5cecc7bebfc61f52ccf6404"}
+Redirected to http://localhost:3000/users/sign_in
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2014-09-23 09:30:56 -0300
+Processing by Devise::SessionsController#new as HTML
+  Rendered users/shared/_links.erb (0.4ms)
+  Rendered users/sessions/new.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 66ms (Views: 64.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2014-09-23 09:30:56 -0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-23 09:30:56 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-23 09:30:56 -0300
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2014-09-23 09:30:56 -0300
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-09-23 09:30:56 -0300
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2014-09-23 09:30:56 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-23 09:30:56 -0300
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-09-23 09:30:56 -0300
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-09-23 09:30:56 -0300
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-09-23 09:30:56 -0300
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-09-23 09:30:56 -0300
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-09-23 09:30:56 -0300
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-09-23 09:30:56 -0300
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-09-23 09:30:56 -0300
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-09-23 09:30:56 -0300
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-09-23 09:30:56 -0300
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-09-23 09:30:56 -0300
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-09-23 09:30:56 -0300
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-09-23 09:30:56 -0300
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2014-09-23 09:30:56 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-23 09:30:56 -0300
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-09-23 09:30:56 -0300
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2014-09-23 09:30:56 -0300
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2014-09-23 09:30:56 -0300
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-09-23 09:30:56 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-23 09:30:56 -0300
+
+
+Started GET "/users/auth/facebook" for 127.0.0.1 at 2014-09-23 09:31:18 -0300
+
+
+Started GET "/users/auth/facebook" for 127.0.0.1 at 2014-09-23 09:31:18 -0300
+
+
+Started GET "/users/auth/facebook/callback?code=AQDptnI-9R34IFa3ihX_EGgNM-yAcD2pitYJatG9hT5G6OMZXWk8nSJK_fBEcjYwDn6nvzCDggsDGBuhpWspYVLu-_p0vvLINR_d-FXLi5IIkc6HPkRbtTOMaSO7-y0IxoLZvbzAl6eUL2_mgOnF4_3TSbKiYn65bIQL0RohbnetFvprb3c5qt6ABSCqVXNS9o8wTBb7YAYUHBHDndXkM_OMRckNGbFC9dqBzKW50nzluGfTGaKHml_nF5t8VCKKmT87dsS1-FegZrxrK0-CdaHyAT96OG8JrtyAa6F5aX1uGGWpei3Bjiq4e8teoCIT7_WWFtsP9jF8AGyRmBaN2chR&state=0cbd76818ad4da24fe9c8d2f0b4f0cfd819cf866eda153df" for 127.0.0.1 at 2014-09-23 09:31:20 -0300
+Processing by OmniauthCallbacksController#facebook as HTML
+  Parameters: {"code"=>"AQDptnI-9R34IFa3ihX_EGgNM-yAcD2pitYJatG9hT5G6OMZXWk8nSJK_fBEcjYwDn6nvzCDggsDGBuhpWspYVLu-_p0vvLINR_d-FXLi5IIkc6HPkRbtTOMaSO7-y0IxoLZvbzAl6eUL2_mgOnF4_3TSbKiYn65bIQL0RohbnetFvprb3c5qt6ABSCqVXNS9o8wTBb7YAYUHBHDndXkM_OMRckNGbFC9dqBzKW50nzluGfTGaKHml_nF5t8VCKKmT87dsS1-FegZrxrK0-CdaHyAT96OG8JrtyAa6F5aX1uGGWpei3Bjiq4e8teoCIT7_WWFtsP9jF8AGyRmBaN2chR", "state"=>"0cbd76818ad4da24fe9c8d2f0b4f0cfd819cf866eda153df"}
+  [1m[35mUser Load (1.1ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."provider" = 'facebook' AND "users"."uid" = '10204437287429654'  ORDER BY "users"."id" ASC LIMIT 1
+  [1m[36mUser Load (0.9ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."email" = 'dinu1389@gmail.com'  ORDER BY "users"."id" ASC LIMIT 1[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (0.7ms)[0m  [1mUPDATE "users" SET "current_sign_in_at" = $1, "last_sign_in_at" = $2, "sign_in_count" = $3, "updated_at" = $4 WHERE "users"."id" = 1[0m  [["current_sign_in_at", "2014-09-23 12:31:33.325261"], ["last_sign_in_at", "2014-09-23 12:25:27.781742"], ["sign_in_count", 12], ["updated_at", "2014-09-23 12:31:33.327470"]]
+  [1m[35m (11.7ms)[0m  COMMIT
+Redirected to http://localhost:3000/
+Completed 302 Found in 26ms (ActiveRecord: 14.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-23 09:31:33 -0300
+Processing by PostsController#index as HTML
+  [1m[36mUser Load (0.9ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1[0m
+  [1m[35mPost Load (0.6ms)[0m  SELECT "posts".* FROM "posts"
+  Rendered posts/index.html.erb within layouts/application (5.8ms)
+Completed 200 OK in 119ms (Views: 113.8ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2014-09-23 09:31:33 -0300
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2014-09-23 09:31:33 -0300
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2014-09-23 09:31:33 -0300
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-09-23 09:31:33 -0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-23 09:31:33 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-23 09:31:33 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-23 09:31:33 -0300
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-09-23 09:31:33 -0300
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-09-23 09:31:33 -0300
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-09-23 09:31:33 -0300
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-09-23 09:31:33 -0300
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-09-23 09:31:33 -0300
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-09-23 09:31:33 -0300
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-09-23 09:31:33 -0300
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-09-23 09:31:33 -0300
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-09-23 09:31:33 -0300
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-09-23 09:31:33 -0300
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-09-23 09:31:33 -0300
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-09-23 09:31:33 -0300
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2014-09-23 09:31:33 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-23 09:31:33 -0300
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-09-23 09:31:33 -0300
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2014-09-23 09:31:33 -0300
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2014-09-23 09:31:33 -0300
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-09-23 09:31:33 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-23 09:31:33 -0300
+
+
+Started GET "/assets/twitter/fonts/glyphicons-halflings-regular.woff" for 127.0.0.1 at 2014-09-23 09:31:33 -0300
+
+ActionController::RoutingError (No route matches [GET] "/twitter/fonts/glyphicons-halflings-regular.woff"):
+  actionpack (4.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.6) lib/rails/engine.rb:514:in `call'
+  railties (4.1.6) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/federicodinucci/.rbenv/versions/2.0.0-p481/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/federicodinucci/.rbenv/versions/2.0.0-p481/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/federicodinucci/.rbenv/versions/2.0.0-p481/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/federicodinucci/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.6ms)
+  Rendered /home/federicodinucci/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.5ms)
+  Rendered /home/federicodinucci/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.6ms)
+  Rendered /home/federicodinucci/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (17.1ms)
+
+
+Started GET "/assets/twitter/fonts/glyphicons-halflings-regular.ttf" for 127.0.0.1 at 2014-09-23 09:31:33 -0300
+
+ActionController::RoutingError (No route matches [GET] "/twitter/fonts/glyphicons-halflings-regular.ttf"):
+  actionpack (4.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.6) lib/rails/engine.rb:514:in `call'
+  railties (4.1.6) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/federicodinucci/.rbenv/versions/2.0.0-p481/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/federicodinucci/.rbenv/versions/2.0.0-p481/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/federicodinucci/.rbenv/versions/2.0.0-p481/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/federicodinucci/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.5ms)
+  Rendered /home/federicodinucci/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.6ms)
+  Rendered /home/federicodinucci/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.8ms)
+  Rendered /home/federicodinucci/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (15.7ms)
+
+
+Started GET "/assets/twitter/fonts/glyphicons-halflings-regular.svg" for 127.0.0.1 at 2014-09-23 09:31:33 -0300
+
+ActionController::RoutingError (No route matches [GET] "/twitter/fonts/glyphicons-halflings-regular.svg"):
+  actionpack (4.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.6) lib/rails/engine.rb:514:in `call'
+  railties (4.1.6) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/federicodinucci/.rbenv/versions/2.0.0-p481/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/federicodinucci/.rbenv/versions/2.0.0-p481/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/federicodinucci/.rbenv/versions/2.0.0-p481/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/federicodinucci/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.5ms)
+  Rendered /home/federicodinucci/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.5ms)
+  Rendered /home/federicodinucci/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.6ms)
+  Rendered /home/federicodinucci/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (16.0ms)

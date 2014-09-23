@@ -7,7 +7,6 @@
     <%= csrf_meta_tags %>
   </head>
   <body>
-
   <div class="navbar navbar-default navbar-static-top" role="navegacion">
     <div class="container">
       <button class="navbar-toggle" data-toggle="collapse" data-target=".nav-top">
@@ -34,13 +33,15 @@
             <li><a href="#iniciar-sesion" data-toggle="modal" class="text-primary">Log in</a></li>
             <li> <%= link_to 'Log in Clasico', new_user_session_path %> </li>
             <li> <%= link_to 'Registration', new_user_registration_path %>  </li>
+            <li> <%= link_to "Sign in with Facebook", user_omniauth_authorize_path(:facebook) %> </li>
+            
+
           <% end %>
         </ul>
       </div>
     </div>
   </div>
   
-
 
    <div class="modal fade" id="iniciar-sesion" tabindex="-1" role="dialog" aria-labelledby="iniciar-sesion" >
       <div class="modal-dialog">
@@ -50,10 +51,10 @@
             <div class="modal-body">
               <div class="container-fluid">
                 <div class="form-group">
-                  <input type="email" class="form-control" id="email" placeholder="Correo electrónico o nombre de usuario">
+                  <input type="email" class="form-control" name="email" placeholder="Correo electrónico o nombre de usuario">
                 </div>
                 <div class="form-group">
-                  <input type="password" id="password" class="form-control" placeholder="Contraseña">
+                  <input type="password" name="password" class="form-control" placeholder="Contraseña">
                 </div>
               </div>
               <p class="text-right"> <a href="#">¿Olvidaste tu contraseña?</a></p>
@@ -88,6 +89,14 @@
     <% end %>
     <%= yield %>
         
-
+  <div
+  class="fb-like"
+  data-share="true"
+  data-width="450"
+  data-show-faces="true">
+  </div>
   </body>
+
+
+
 </html>

@@ -33,6 +33,8 @@ gem 'bh'
 gem 'pg'
 gem 'devise'
 gem 'sidekiq'
+gem 'omniauth'
+gem 'omniauth-facebook'
 
 group :test, :development do
 	gem 'byebug'
