@@ -2,5 +2,5 @@
 test: &test
   adapter: postgresql
   encoding: utf8
-  database: donar_test
+  database: myblog_test
   username: postgres
