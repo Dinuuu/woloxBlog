@@ -1,0 +1,6 @@
+
+test: &test
+  adapter: postgresql
+  encoding: utf8
+  database: donar_test
+  username: postgres
