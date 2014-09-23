@@ -1,6 +1,8 @@
-<a href="https://codeclimate.com/repos/542169d6e30ba04cb9005d48/feed"><img src="https://codeclimate.com/repos/542169d6e30ba04cb9005d48/badges/9f2d047d8e71df62ed39/gpa.svg" /></a>
+WoloxBlog
 
-== README
+{<img src="https://codeclimate.com/repos/542169d6e30ba04cb9005d48/badges/9f2d047d8e71df62ed39/gpa.svg" />}[https://codeclimate.com/repos/542169d6e30ba04cb9005d48/feed]
+
+{<img src="https://codeclimate.com/repos/542169d6e30ba04cb9005d48/badges/9f2d047d8e71df62ed39/coverage.svg" />}[https://codeclimate.com/repos/542169d6e30ba04cb9005d48/feed]
 
 This README would normally document whatever steps are necessary to get the
 application up and running.
