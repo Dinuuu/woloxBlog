@@ -1,12 +1,19 @@
 require 'spec_helper'
 
 describe PostsController do
+  
   describe "POST #create" do
+   
+    before(:each) do
+      @user = FactoryGirl.create(:user)
+      sign_in @user
+    end
 
     context "with valid attributes" do
       let(:a_post) { attributes_for(:post) }
       it "increments the count of Posts" do
-        expect{ post :create, post: a_post }.to change(Post,:count).by(1) 
+        expect{ post :create, post: a_post }.to change(Post,:count).by(1)
+
       end
       it 'redirects to the campaign view' do
         post :create , post: a_post

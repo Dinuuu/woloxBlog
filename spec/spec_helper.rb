@@ -21,7 +21,7 @@ RSpec.configure do |config|
   config.include RSpec::Rails::RequestExampleGroup, type: :feature
 
   config.include FactoryGirl::Syntax::Methods
-
+  config.include Devise::TestHelpers, type: :controller
   #
   # If you prefer to use mocha, flexmock or RR, uncomment the appropriate line:
   #
