@@ -38,7 +38,7 @@ gem 'omniauth-facebook'
 gem 'rubocop', require: false
 gem 'app_configuration'
 gem 'rails_12factor'
-
+gem 'activeadmin', github: 'activeadmin'
 group :test, :development do
 	gem 'byebug'
 end
