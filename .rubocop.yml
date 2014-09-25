@@ -1,0 +1,12 @@
+Documentation:
+  Enabled: false
+LineLength:
+  Max: 100
+AllCops:
+  Includes:
+    - Rakefile
+    - config.ru
+  Excludes:
+    - db/**/*
+    - config/**/*
+    - script/**/*
