@@ -3,13 +3,13 @@ class MailWorker
 
   def perform(id)
     post = Post.find(id)
-    alreadySent = Array.new
+    already_sent = []
     post.comments.each do |comment|
-      unless alreadySent.include?(comment.commenter) 
-        alreadySent.push(comment.commenter)
+      unless already_sent.include?(comment.commenter)
+        already_sent.push(comment.commenter)
         send_mail(comment.commenter)
       end
-    end 
+    end
   end
 
   def send_mail(commenter)

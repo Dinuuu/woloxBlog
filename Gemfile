@@ -35,6 +35,8 @@ gem 'devise'
 gem 'sidekiq'
 gem 'omniauth'
 gem 'omniauth-facebook'
+gem 'rubocop', require: false
+gem 'app_configuration'
 
 group :test, :development do
 	gem 'byebug'

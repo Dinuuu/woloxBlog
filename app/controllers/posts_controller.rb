@@ -1,6 +1,5 @@
 class PostsController < InheritedResources::Base
-before_action :authenticate_user!
-  
+  before_action :authenticate_user!
   def create
     create!
   end
@@ -10,5 +9,4 @@ before_action :authenticate_user!
   def post_params
     params.require(:post).permit(:title, :text)
   end
-
 end
