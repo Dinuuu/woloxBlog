@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-
+ruby '2.0.0'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.6'
@@ -37,6 +37,7 @@ gem 'omniauth'
 gem 'omniauth-facebook'
 gem 'rubocop', require: false
 gem 'app_configuration'
+gem 'rails_12factor'
 
 group :test, :development do
 	gem 'byebug'
