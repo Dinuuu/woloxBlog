@@ -1,7 +1,7 @@
 class CommentsController  < InheritedResources::Base
   belongs_to :post
   before_action :authenticate_user!
-  after_action :mail_interesed, only: :create
+  # after_action :mail_interesed, only: :create
   def create
     create! { post_path(@post) }
   end
